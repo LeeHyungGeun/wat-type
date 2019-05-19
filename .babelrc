@@ -14,8 +14,9 @@
       }
     ]
   ],
-  // "plugins": [
-  //   "transform-es3-property-literals",
-  //   "transform-es3-member-expression-literals"
-  // ]
+  "plugins": [
+    "@babel/plugin-transform-runtime"
+    // "transform-es3-property-literals",
+    // "transform-es3-member-expression-literals"
+  ]
 }
