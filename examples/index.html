@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Example</title>
+</head>
+<body>
+  <div id="isType"></div>
+  <div id="isString"></div>
+  <div id="isNumber"></div>
+  <div id="isBoolean"></div>
+  <div id="isNull"></div>
+  <div id="isUndefined"></div>
+  <div id="isNaN"></div>
+  <div id="isObject"></div>
+  <div id="isFunction"></div>
+  <div id="isRegExp"></div>
+  <div id="isHTMLElement"></div>
+  <script src="../dist/is-type.js"></script>
+  <script>
+    document.querySelector('#isType').textContent = `isType.isType(NaN)): ${isType.isType(NaN)}`
+    document.querySelector('#isString').textContent = `isType.isString('LeeHyungGeun')): ${isType.isString('LeeHyungGeun')}`
+    document.querySelector('#isNumber').textContent = `isType.isNumber(35)): ${isType.isNumber(35)}`
+    document.querySelector('#isBoolean').textContent = `isType.isBoolean(false)): ${isType.isBoolean(false)}`
+    document.querySelector('#isNull').textContent = `isType.isNull(null)): ${isType.isNull(null)}`
+    document.querySelector('#isUndefined').textContent = `isType.isUndefined(undefined)): ${isType.isUndefined(undefined)}`
+    document.querySelector('#isNaN').textContent = `isType.isNaN(NaN)): ${isType.isNaN(NaN)}`
+    document.querySelector('#isObject').textContent = `isType.isObject({})): ${isType.isObject({})}`
+    document.querySelector('#isFunction').textContent = `isType.isFunction(function() {})): ${isType.isFunction(function() {})}`
+    document.querySelector('#isRegExp').textContent = `isType.isRegExp(/leehyunggeun/)): ${isType.isRegExp(/LeeHyungGeun/)}`
+    document.querySelector('#isHTMLElement').textContent = `isType.isHTMLElement(document.createElement('div'))): ${isType.isHTMLElement(document.createElement('div'))}`
+  </script>
+</body>
+</html>
