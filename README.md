@@ -2,6 +2,11 @@
 function utils to check type
 : `string`, `number`, `boolean`, `null`, `undefined`, `object`, `NaN`, `function`, `RegExp`, `HTMLElement`
 
+## Install
+``` js
+npm i --save wat-type
+```
+
 ## How to use
 ES6 (Import/Export)
 ``` js
