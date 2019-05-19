@@ -7,7 +7,7 @@
   <title>Example</title>
 </head>
 <body>
-  <div id="isType"></div>
+  <div id="watType"></div>
   <div id="isString"></div>
   <div id="isNumber"></div>
   <div id="isBoolean"></div>
@@ -18,19 +18,19 @@
   <div id="isFunction"></div>
   <div id="isRegExp"></div>
   <div id="isHTMLElement"></div>
-  <script src="../dist/is-type.js"></script>
+  <script src="../dist/wat-type.js"></script>
   <script>
-    document.querySelector('#isType').textContent = `isType.isType(NaN)): ${isType.isType(NaN)}`
-    document.querySelector('#isString').textContent = `isType.isString('LeeHyungGeun')): ${isType.isString('LeeHyungGeun')}`
-    document.querySelector('#isNumber').textContent = `isType.isNumber(35)): ${isType.isNumber(35)}`
-    document.querySelector('#isBoolean').textContent = `isType.isBoolean(false)): ${isType.isBoolean(false)}`
-    document.querySelector('#isNull').textContent = `isType.isNull(null)): ${isType.isNull(null)}`
-    document.querySelector('#isUndefined').textContent = `isType.isUndefined(undefined)): ${isType.isUndefined(undefined)}`
-    document.querySelector('#isNaN').textContent = `isType.isNaN(NaN)): ${isType.isNaN(NaN)}`
-    document.querySelector('#isObject').textContent = `isType.isObject({})): ${isType.isObject({})}`
-    document.querySelector('#isFunction').textContent = `isType.isFunction(function() {})): ${isType.isFunction(function() {})}`
-    document.querySelector('#isRegExp').textContent = `isType.isRegExp(/leehyunggeun/)): ${isType.isRegExp(/LeeHyungGeun/)}`
-    document.querySelector('#isHTMLElement').textContent = `isType.isHTMLElement(document.createElement('div'))): ${isType.isHTMLElement(document.createElement('div'))}`
+    document.querySelector('#watType').textContent = `watType.watType(NaN)): ${watType.watType(NaN)}`
+    document.querySelector('#isString').textContent = `watType.isString('LeeHyungGeun')): ${watType.isString('LeeHyungGeun')}`
+    document.querySelector('#isNumber').textContent = `watType.isNumber(35)): ${watType.isNumber(35)}`
+    document.querySelector('#isBoolean').textContent = `watType.isBoolean(false)): ${watType.isBoolean(false)}`
+    document.querySelector('#isNull').textContent = `watType.isNull(null)): ${watType.isNull(null)}`
+    document.querySelector('#isUndefined').textContent = `watType.isUndefined(undefined)): ${watType.isUndefined(undefined)}`
+    document.querySelector('#isNaN').textContent = `watType.isNaN(NaN)): ${watType.isNaN(NaN)}`
+    document.querySelector('#isObject').textContent = `watType.isObject({})): ${watType.isObject({})}`
+    document.querySelector('#isFunction').textContent = `watType.isFunction(function() {})): ${watType.isFunction(function() {})}`
+    document.querySelector('#isRegExp').textContent = `watType.isRegExp(/leehyunggeun/)): ${watType.isRegExp(/LeeHyungGeun/)}`
+    document.querySelector('#isHTMLElement').textContent = `watType.isHTMLElement(document.createElement('div'))): ${watType.isHTMLElement(document.createElement('div'))}`
   </script>
 </body>
 </html>

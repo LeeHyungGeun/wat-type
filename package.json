@@ -1,15 +1,15 @@
 {
-  "name": "is-type",
+  "name": "wat-type",
   "version": "0.0.1",
   "description": "",
-  "main": "dist/is-type.js",
+  "main": "dist/wat-type.js",
   "scripts": {
     "remove:dist": "rm -rf ./dist && mkdir ./dist",
-    "build": "npm run remove:dist && node_modules/.bin/babel src/lib/is-type.js -o dist/is-type.js --source-maps --minified --compact"
+    "build": "npm run remove:dist && node_modules/.bin/babel src/lib/wat-type.js -o dist/wat-type.js --source-maps --minified --compact"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LeeHyungGeun/is-type.git"
+    "url": "git+https://github.com/LeeHyungGeun/wat-type.git"
   },
   "keywords": [
     "typecheck",
@@ -18,9 +18,9 @@
   "author": "LeeHyungGeun <lhg4031@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LeeHyungGeun/is-type/issues"
+    "url": "https://github.com/LeeHyungGeun/wat-type/issues"
   },
-  "homepage": "https://github.com/LeeHyungGeun/is-type#readme",
+  "homepage": "https://github.com/LeeHyungGeun/wat-type#readme",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.4",

@@ -5,34 +5,34 @@ function utils to check type
 ## How to use
 ES3
 ``` html
-<script src="../dist/is-type.js"></script>
+<script src="../dist/wat-type.js"></script>
 <script>
-isType.isType(NaN) // NaN
-isType.isString('LeeHyungGeun') // true
-isType.isNumber(35) // true
-isType.isBoolean(false) // true
-isType.isNull(null) // true
-isType.isUndefined(undefined) // true
-isType.isNaN(NaN) // true
-isType.isObject({}) // true
-isType.isFunction(function() {}) // true
-isType.isRegExp(/LeeHyungGeun/) // true
-isType.isHTMLElement(document.createElement('div')) // true
+watType.watType(NaN) // NaN
+watType.isString('LeeHyungGeun') // true
+watType.isNumber(35) // true
+watType.isBoolean(false) // true
+watType.isNull(null) // true
+watType.isUndefined(undefined) // true
+watType.isNaN(NaN) // true
+watType.isObject({}) // true
+watType.isFunction(function() {}) // true
+watType.isRegExp(/LeeHyungGeun/) // true
+watType.isHTMLElement(document.createElement('div')) // true
 </script>
 ```
 
 ES6 (Module/Import)
 ``` js
-import * as isType from 'is-type'
+import * as watType from 'is-type'
 
-isType.isType(NaN) // true
-isType.isString('LeeHyungGeun') // true
-isType.isNumber(35) // true
-isType.isBoolean(false) // true
-isType.isNull(null) // true
-isType.isUndefined(undefined) // true
-isType.isNaN(NaN) // true
-isType.isObject({}) // true
-isType.isFunction(function() {}) // true
-isType.isRegExp(/LeeHyungGeun/) // true
+watType.watType(NaN) // true
+watType.isString('LeeHyungGeun') // true
+watType.isNumber(35) // true
+watType.isBoolean(false) // true
+watType.isNull(null) // true
+watType.isUndefined(undefined) // true
+watType.isNaN(NaN) // true
+watType.isObject({}) // true
+watType.isFunction(function() {}) // true
+watType.isRegExp(/LeeHyungGeun/) // true
 ```

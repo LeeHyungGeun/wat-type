@@ -1,12 +1,12 @@
-import * as isType from '../dist/is-type'
+import * as watType from '../dist/wat-type'
 
-console.log(isType.isType(NaN))
-console.log(isType.isString('LeeHyungGeun'))
-console.log(isType.isNumber(35))
-console.log(isType.isBoolean(false))
-console.log(isType.isNull(null))
-console.log(isType.isUndefined(undefined))
-console.log(isType.isNaN(NaN))
-console.log(isType.isObject({}))
-console.log(isType.isFunction(function() {}))
-console.log(isType.isRegExp(/LeeHyungGeun/))
+console.log(watType.watType(NaN))
+console.log(watType.isString('LeeHyungGeun'))
+console.log(watType.isNumber(35))
+console.log(watType.isBoolean(false))
+console.log(watType.isNull(null))
+console.log(watType.isUndefined(undefined))
+console.log(watType.isNaN(NaN))
+console.log(watType.isObject({}))
+console.log(watType.isFunction(function() {}))
+console.log(watType.isRegExp(/LeeHyungGeun/))

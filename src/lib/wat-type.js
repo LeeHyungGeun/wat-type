@@ -1,5 +1,5 @@
 import '@babel/polyfill'
-const isType = (type) => {
+const watType = (type) => {
   let _type = /^\[.+\ +(.+)\]$/.exec(Object.prototype.toString.call(type))[1]
 
   if (_type === 'Number') {
@@ -23,51 +23,51 @@ const isType = (type) => {
 }
 
 const isString = (type) => {
-  return isType(type) === 'String'
+  return watType(type) === 'String'
 }
 
 const isNumber = (type) => {
-  return isType(type) === 'Number'
+  return watType(type) === 'Number'
 }
 
 const isBoolean = (type) => {
-  return isType(type) === 'Boolean'
+  return watType(type) === 'Boolean'
 }
 
 const isNull = (type) => {
-  return isType(type) === 'Null'
+  return watType(type) === 'Null'
 }
 
 const isUndefined = (type) => {
-  return isType(type) === 'Undefined'
+  return watType(type) === 'Undefined'
 }
 
 const isNaN = (type) => {
-  return isType(type) === 'NaN'
+  return watType(type) === 'NaN'
 }
 
 const isObject = (type) => {
-  return isType(type) === 'Object'
+  return watType(type) === 'Object'
 }
 
 const isFunction = (type) => {
-  return isType(type) === 'Function'
+  return watType(type) === 'Function'
 }
 
 const isRegExp = (type) => {
-  return isType(type) === 'RegExp'
+  return watType(type) === 'RegExp'
 }
 
 const isArray = (type) => {
-  return isType(type) === 'Array'
+  return watType(type) === 'Array'
 }
 
 const isHTMLElement = (type) => {
-  return isType(type) === 'HTMLElement'
+  return watType(type) === 'HTMLElement'
 }
 
 export default {
-  isType,
+  watType,
   isString,
   isNumber,
   isBoolean,
@@ -81,7 +81,7 @@ export default {
 }
 
 export {
-  isType,
+  watType,
   isString,
   isNumber,
   isBoolean,
