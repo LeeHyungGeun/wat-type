@@ -1,0 +1,21 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env", 
+      {
+        "targets": {
+          "browsers": ["last 2 versions", "ie >= 7"],
+          "node": "current",
+        },
+        "modules": "umd",
+        "useBuiltIns": "entry",
+        "corejs": "2.6.5",
+        // "debug": true
+      }
+    ]
+  ],
+  // "plugins": [
+  //   "transform-es3-property-literals",
+  //   "transform-es3-member-expression-literals"
+  // ]
+}
