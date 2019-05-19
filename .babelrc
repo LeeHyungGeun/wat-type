@@ -9,13 +9,22 @@
         },
         "modules": "umd",
         "useBuiltIns": "entry",
-        "corejs": "2.6.5",
+        "corejs": 3,
         // "debug": true
       }
     ]
   ],
   "plugins": [
-    "@babel/plugin-transform-runtime"
+    // [
+    //   "@babel/plugin-transform-runtime",
+    //   {
+    //     "absoluteRuntime": false,
+    //     "corejs": 3,
+    //     "helpers": true,
+    //     "regenerator": true,
+    //     "useESModules": false
+    //   }
+    // ]
     // "transform-es3-property-literals",
     // "transform-es3-member-expression-literals"
   ]

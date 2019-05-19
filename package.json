@@ -1,6 +1,6 @@
 {
   "name": "wat-type",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/wat-type.js",
   "scripts": {
@@ -31,6 +31,6 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.4.4",
-    "core-js": "^2.6.5"
+    "core-js": "^3.0.1"
   }
 }

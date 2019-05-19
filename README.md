@@ -23,7 +23,7 @@ watType.isHTMLElement(document.createElement('div')) // true
 
 ES6 (Module/Import)
 ``` js
-import * as watType from 'is-type'
+import watType from 'wat-type'
 
 watType.watType(NaN) // true
 watType.isString('LeeHyungGeun') // true
