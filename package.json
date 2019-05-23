@@ -1,6 +1,6 @@
 {
   "name": "wat-type",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "",
   "main": "dist/wat-type.js",
   "scripts": {
@@ -27,7 +27,8 @@
     "@babel/node": "^7.2.2",
     "@babel/plugin-transform-runtime": "^7.4.4",
     "@babel/polyfill": "^7.4.4",
-    "@babel/preset-env": "^7.4.4"
+    "@babel/preset-env": "^7.4.4",
+    "babel-plugin-import": "^1.11.2"
   },
   "dependencies": {
     "@babel/runtime": "^7.4.4",
