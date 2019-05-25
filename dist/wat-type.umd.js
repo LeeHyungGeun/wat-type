@@ -814,4 +814,4 @@
 	Object.defineProperty(exports, '__esModule', { value: true });
 
 }));
-//# sourceMappingURL=wat-type.js.map
+//# sourceMappingURL=wat-type.umd.js.map
