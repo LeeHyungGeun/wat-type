@@ -1,4 +1,4 @@
-import watType from '../dist/wat-type.esm'
+import watType from '../dist/wat-type'
 
 console.log(watType.watType(NaN))
 console.log(watType.isString('LeeHyungGeun'))

@@ -8,6 +8,7 @@ import replace from 'rollup-plugin-replace'
 
 const pkgName = 'wat-type'
 const pkg = {
+  all: `dist/${pkgName}.js`,
   main: `dist/${pkgName}.cjs.js`,
   module: `dist/${pkgName}.esm.js`,
   browser: `dist/${pkgName}.umd.js`,
@@ -18,7 +19,8 @@ export default [
     input: 'src/lib/wat-type.js',
     output: {
       name: 'watType',
-      file: pkg.browser,
+      // file: pkg.browser,
+      file: pkg.all,
       sourcemap: true,
       strict: true,
       format: 'umd'
@@ -73,18 +75,18 @@ export default [
       // (process.env.NODE_ENV && uglify())
     ]
   },
-  {
-		input: 'src/lib/wat-type.js',
-		// external: [],
-		output: [
-			{ file: pkg.main, format: 'cjs' },
-			{ file: pkg.module, format: 'es' }
-    ],
-    plugins: [
-      replace({
-        exclude: 'node_modules/**',
-        ENV: JSON.stringify(process.env.NODE_ENV || 'development'),
-      }),
-    ],
-	}
+  // {
+	// 	input: 'src/lib/wat-type.js',
+	// 	// external: [],
+	// 	output: [
+	// 		{ file: pkg.main, format: 'cjs' },
+	// 		{ file: pkg.module, format: 'es' }
+  //   ],
+  //   plugins: [
+  //     replace({
+  //       exclude: 'node_modules/**',
+  //       ENV: JSON.stringify(process.env.NODE_ENV || 'development'),
+  //     }),
+  //   ],
+	// }
 ]
