@@ -44,7 +44,7 @@ export default [
       // eslint(),
       babel({
         sourceMap: true,
-        exclude: 'node_modules/**',
+        // exclude: 'node_modules/**',
         babelrc: false,
         "presets": [
           [

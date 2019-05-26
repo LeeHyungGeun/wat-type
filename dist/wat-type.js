@@ -4,17 +4,6 @@
   (global = global || self, factory(global.watType = {}));
 }(this, function (exports) { 'use strict';
 
-  // Import a logger for easier debugging.
-  var debug = require('debug');
-
-  var log = debug('app:log'); // The logger should only be disabled if we’re not in production.
-
-  {
-    debug.disable();
-  } // import 'core-js'
-  // import 'regenerator-runtime/runtime'
-
-
   var watType = function watType(type) {
     var _type = /^\[.+\ +(.+)\]$/.exec(Object.prototype.toString.call(type))[1];
 
@@ -109,4 +98,4 @@
   Object.defineProperty(exports, '__esModule', { value: true });
 
 }));
-//# sourceMappingURL=wat-type.umd.js.map
+//# sourceMappingURL=wat-type.js.map

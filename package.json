@@ -1,6 +1,6 @@
 {
   "name": "wat-type",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "",
   "main": "dist/wat-type.js",
   "scripts": {
