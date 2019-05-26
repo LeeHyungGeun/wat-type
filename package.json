@@ -1,7 +1,7 @@
 {
   "name": "wat-type",
   "version": "0.0.18",
-  "description": "",
+  "description": "type check: string, number, boolean, null, undefined, object, nan, regexp, htmlelement",
   "main": "dist/wat-type.js",
   "scripts": {
     "remove:dist": "rm -rf ./dist && mkdir ./dist",
