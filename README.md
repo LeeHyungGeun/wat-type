@@ -13,9 +13,10 @@ npm i --save wat-type
 ```
 
 ## How to use
-ES6 (Import/Export)
+ESM (Import/Export) / CommonJS
 ``` js
-import watType from 'wat-type'
+import watType from 'wat-type' // ESM
+const watType = require('wat-type') // CommonJS
 
 watType.watType(NaN) // NaN
 watType.isString('LeeHyungGeun') // true
