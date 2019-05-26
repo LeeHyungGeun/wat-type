@@ -1,6 +1,6 @@
 {
   "name": "wat-type",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "",
   "main": "dist/wat-type.esm.js",
   "scripts": {

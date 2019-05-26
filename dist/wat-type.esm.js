@@ -1,6 +1,5 @@
-import debug from 'debug';
-
 // Import a logger for easier debugging.
+const debug = require('debug');
 const log = debug('app:log');
 
 // The logger should only be disabled if we’re not in production.

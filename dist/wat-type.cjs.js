@@ -2,11 +2,8 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
-
-var debug = _interopDefault(require('debug'));
-
 // Import a logger for easier debugging.
+const debug = require('debug');
 const log = debug('app:log');
 
 // The logger should only be disabled if we’re not in production.
