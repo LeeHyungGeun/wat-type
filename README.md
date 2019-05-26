@@ -1,4 +1,4 @@
-ㄷ<p align="left">
+<p align="left">
   <a href="https://npmcharts.com/compare/wat-type?minimal=true"><img src="https://img.shields.io/npm/dm/wat-type.svg" alt="Downloads"></a>
     <a href="https://www.npmjs.com/package/wat-type"><img src="https://img.shields.io/npm/v/wat-type.svg" alt="Version"></a>
 </p>
