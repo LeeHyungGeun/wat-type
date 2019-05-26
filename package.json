@@ -1,8 +1,8 @@
 {
   "name": "wat-type",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "",
-  "main": "dist/wat-type.esm.js",
+  "main": "dist/wat-type.js",
   "scripts": {
     "remove:dist": "rm -rf ./dist && mkdir ./dist",
     "build": "npm run build:production",
