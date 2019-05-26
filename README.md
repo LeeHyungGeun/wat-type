@@ -26,7 +26,7 @@ watType.isRegExp(/LeeHyungGeun/) // true
 
 ES3
 ``` html
-<script src="../dist/wat-type.umd.js"></script>
+<script src="../dist/wat-type.js"></script>
 <script>
 watType.watType(NaN) // NaN
 watType.isString('LeeHyungGeun') // true
